@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Import the Navbar component from the ./navigation/navbar module
-import Navbar from './navigation/navbar';
+import Navbar from '../Moby/components/navigation/navbar';
 
 // Define the main App component
 export default function App() {
