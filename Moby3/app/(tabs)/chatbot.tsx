@@ -26,7 +26,7 @@ export default function AssistanceScreen() {
       {/* Icone de profil en haut à droite, avec le même style que dans HomeScreen */}
       <TouchableOpacity style={styles.profileIcon}>
         <Image 
-          source={require('../../assets/images/icon.png')}  // Remplace par l'icône de profil
+          source={require('../../assets/images/mail.png')}  // Remplace par l'icône de profil
           style={styles.profileImage} 
         />
       </TouchableOpacity>
@@ -35,14 +35,14 @@ export default function AssistanceScreen() {
       <View style={styles.leftIcons}>
         <TouchableOpacity style={styles.iconButton}>
           <Image 
-            source={require('../../assets/images/icon.png')}  // Icône d'ajout (assurez-vous que le fichier existe)
+            source={require('../../assets/images/mail.png')}  // Icône d'ajout (assurez-vous que le fichier existe)
             style={styles.iconImage} 
           />
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.iconButton}>
           <Image 
-            source={require('../../assets/images/icon.png')}  // Icône des réglages (assurez-vous que le fichier existe)
+            source={require('../../assets/images/mail.png')}  // Icône des réglages (assurez-vous que le fichier existe)
             style={styles.iconImage} 
           />
         </TouchableOpacity>
@@ -70,7 +70,7 @@ export default function AssistanceScreen() {
         />
         <TouchableOpacity style={styles.sendButton} onPress={sendMessage}>
           <Image 
-            source={require('../../assets/images/icon.png')}  // Icône d'envoi (assurez-vous que le fichier existe)
+            source={require('../../assets/images/mail.png')}  // Icône d'envoi (assurez-vous que le fichier existe)
             style={styles.sendImage} 
           />
         </TouchableOpacity>

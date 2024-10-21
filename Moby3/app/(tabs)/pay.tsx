@@ -7,7 +7,7 @@ export default function PayScreen() {
       {/* Icone de profil en haut à droite */}
       <TouchableOpacity style={styles.profileIcon}>
         <Image
-          source={require('../../assets/images/icon.png')}  // Remplacer par ton icône de profil
+          source={require('../../assets/images/mail.png')}  // Remplacer par ton icône de profil
           style={styles.profileImage}
         />
       </TouchableOpacity>
@@ -16,17 +16,17 @@ export default function PayScreen() {
       <View style={styles.leftPanel}>
         {/* Section Les essentiels */}
         <Text style={styles.sectionTitle}>Les essentiels</Text>
-        <MenuItem icon={require('../../assets/images/icon.png')} label="Tableau de bord" onPress={() => alert('Tableau de bord')} />
-        <MenuItem icon={require('../../assets/images/icon.png')} label="Bulletins de paie" onPress={() => alert('Bulletins de paie')} />
+        <MenuItem icon={require('../../assets/images/mail.png')} label="Tableau de bord" onPress={() => alert('Tableau de bord')} />
+        <MenuItem icon={require('../../assets/images/mail.png')} label="Bulletins de paie" onPress={() => alert('Bulletins de paie')} />
 
         {/* Section Au quotidien */}
         <Text style={styles.sectionTitle}>Au quotidien</Text>
-        <MenuItem icon={require('../../assets/images/icon.png')} label="Absences" onPress={() => alert('Absences')} />
-        <MenuItem icon={require('../../assets/images/icon.png')} label="Entretiens et objectifs" onPress={() => alert('Entretiens et objectifs')} />
+        <MenuItem icon={require('../../assets/images/mail.png')} label="Absences" onPress={() => alert('Absences')} />
+        <MenuItem icon={require('../../assets/images/mail.png')} label="Entretiens et objectifs" onPress={() => alert('Entretiens et objectifs')} />
 
         {/* Section Mon entreprise */}
         <Text style={styles.sectionTitle}>Mon entreprise</Text>
-        <MenuItem icon={require('../../assets/images/icon.png')} label="Documents" onPress={() => alert('Documents')} />
+        <MenuItem icon={require('../../assets/images/mail.png')} label="Documents" onPress={() => alert('Documents')} />
       </View>
     </View>
   );

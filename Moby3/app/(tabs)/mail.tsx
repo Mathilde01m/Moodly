@@ -9,7 +9,7 @@ export default function MailScreen() {
       {/* Icône de profil en haut à droite */}
       <TouchableOpacity style={styles.profileIcon}>
         <Image 
-          source={require('../../assets/images/icon.png')} 
+          source={require('../../assets/images/mail.png')} 
           style={styles.profileImage} 
         />
       </TouchableOpacity>
@@ -17,7 +17,7 @@ export default function MailScreen() {
       {/* Icône des réglages */}
       <TouchableOpacity style={styles.settingsIcon}>
         <Image 
-          source={require('../../assets/images/icon.png')} 
+          source={require('../../assets/images/mail.png')} 
           style={styles.iconImage} 
         />
       </TouchableOpacity>

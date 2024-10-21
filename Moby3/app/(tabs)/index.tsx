@@ -7,7 +7,7 @@ export default function HomeScreen() {
       {/* Icone de profil en haut à droite */}
       <TouchableOpacity style={styles.profileIcon}>
         <Image 
-          source={require('../../assets/images/icon.png')} 
+          source={require('../../assets/images/home.png')} 
           style={styles.profileImage} 
         />
       </TouchableOpacity>
