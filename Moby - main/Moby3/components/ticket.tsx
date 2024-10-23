@@ -9,8 +9,6 @@ type Ticket = {
   statusColor: string;
 };
 
-
-
 export default function PayScreen() {
   const [activeTab, setActiveTab] = useState<string>('Ticket'); // Onglet actif
   const [ticketsEntrants, setTicketsEntrants] = useState<Ticket[]>([
