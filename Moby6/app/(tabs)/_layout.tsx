@@ -15,7 +15,7 @@ export default function TabLayout() {
         headerShown: false,
       }}>
       <Tabs.Screen
-        name="index"
+        name="connection"
         options={{
           title: 'Home',
           tabBarIcon: ({ color, focused }) => (
@@ -24,17 +24,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="chatbot"
+        name="inscription"
         options={{
-          title: 'Assistant',
+          title: 'inscription',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
           ),
         }}
       />
-       
-
-
     </Tabs>
   );
 }
